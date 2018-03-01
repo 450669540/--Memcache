@@ -6,10 +6,13 @@
     a）安装Memcache
     
       cd memcached.exe所在文件夹路径
+      
       memcached.exe -d install 如果没有报错说明安装成功
-      在服务中看是否有Memcached Server服务
+      
+      在服务中看是否有Memcached Server服务
         
     b）检测是否安装成功  
+    
         telnet 本地ip 11211（默认端口）
        
 （2）java中使用Memcache
