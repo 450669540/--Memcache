@@ -4,6 +4,7 @@
      下载地址：www.newasp.net/soft/63735.html
     
     a）安装Memcache
+    
       cd memcached.exe所在文件夹路径
       memcached.exe -d install 如果没有报错说明安装成功
       在服务中看是否有Memcached Server服务
