@@ -1,4 +1,4 @@
-# --Memcache
+# Memcache
 （1）下载Memcache
 
      下载地址：http://www.jb51.net/softs/205839.html
