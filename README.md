@@ -1,22 +1,15 @@
 # Memcache
 （1）下载Memcache
 
-     下载地址：http://www.jb51.net/softs/205839.html
-     
-    a）下载解压之后放在硬盘的目录下，如：D:\memcached . 
+     下载地址：www.newasp.net/soft/63735.html
     
-    b）然后在运行中输入cmd进入命令行，进入到Memcached.exe 所在的目录，例如：D:\memcached
-    
-    c）然后在Memcache目录，输入memcached.exe –d install，添加memcached.exe为服务
-    
-    d）输入memcached.exe -d start，运行memcached程序。
-        C:\users\Test>d:
-        D:\>cd d:\memcache
-        d:\memcache>memcached.exe -d install
-        d:\memcache>memcached.exe -d start
-        
-    e）检测是否安装成功  
-        telnet 192.168.1.2 11211（默认端口）
+    a）安装Memcache
+      cd memcached.exe所在文件夹路径
+      memcached.exe -d install 如果没有报错说明安装成功
+      在服务中看是否有Memcached Server服务
+        
+    b）检测是否安装成功  
+        telnet 本地ip 11211（默认端口）
        
 （2）java中使用Memcache
 
